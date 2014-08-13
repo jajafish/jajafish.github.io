@@ -1,0 +1,343 @@
+body, html {
+    height: 100%;
+    /*width: 60%;*/
+    overflow: none;
+    background-color: gray;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+
+#merrick-face {
+    margin: 0 auto;
+    display: block;
+    position: relative;
+}
+
+
+
+
+#name_header {
+    padding-top: 0px;
+
+
+}
+
+
+@media screen and ( max-height: 800px ){
+
+    #name_header {
+        margin-top: -500px;
+
+    }
+
+}
+
+
+
+
+.jumbotron h1 {
+    font-size: 90px;
+    color: black;
+    /*text-align: center;*/
+    margin-bottom: 40px;
+}
+
+
+
+#merrick_bio_text {
+    font-weight: lighter;
+    font-size: 1.5em;
+}
+
+#merrick_links {
+    text-align: center;
+}
+
+#merrick_bio_photo {
+    width: 100%;
+}
+
+#nav {
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 2em;
+    overflow: auto;
+    display: block;
+}
+
+
+
+
+#merrick_jumbo {
+    background-color: white;
+    height: 100%;
+}
+
+
+.mid-scroll-nav-header
+{
+    height: 134px;
+    width: 100%;
+    background-color: transparent;
+    padding-top: 20px;
+    margin-bottom: 15px;
+    border-bottom: 0px solid black;
+    z-index: 1;
+}
+
+
+
+#merrick-mid-scroll-pic {
+    height: 80px;
+    width: 80px;
+}
+
+
+
+
+
+/* MUSIC SECTION */
+
+
+#soundWave {
+    position: relative;
+    width: 100%;
+    height: 132px;
+    margin-left: -30px;
+    margin-top: 300px;
+    z-index: -4;
+}
+
+.merrick-music-section {
+    margin-top: 100px;
+}
+
+
+#merrick-main-music-row {
+    margin-bottom: 90px;
+}
+
+#playButton {
+    position: relative;
+    margin-left: -150px;
+    margin-top: -200px;
+    z-index: -5;
+}
+
+#merricksActualStudioImg {
+    margin-left: 50px;
+    position: relative;
+    z-index: -1;
+}
+
+#bigPlayBackground {
+    padding-top: -300px;
+    margin-left: -400px;
+    height: 300px;
+    width: 300px;
+}
+
+#blueDiv {
+    margin-left: 700px;
+    margin-top: 100px;
+}
+
+
+
+.song_panel {
+    border-radius: 0px;
+    background-color: black; 
+    border: 1px solid black;
+    width: 300px;
+    margin-top: 10px;
+    margin-left: -90px;
+    position: relative;
+    z-index: 5;
+}
+
+.song_panel a {
+    font-size: 40px;
+    color: white;
+    font-weight: lighter;
+
+}
+
+#merrick_studio {
+    position: relative;
+    z-index: 1;
+}
+
+#tracks {
+    margin-left: 125px;
+}
+
+
+
+
+.albumPromo {
+    margin-top: 200px;
+}
+
+
+#merrick-bio-pic {
+    margin-left: 30px;
+}
+
+#merrick_bio_text {
+    margin-top: 80px;
+    line-height: 4;
+}
+
+
+.merrick-biography {
+    padding-top: 200px;
+}
+
+#merrick_studio_pic {
+    margin-left: -50px;
+    margin-top: -15px;
+    position: relative;
+    z-index: 4;
+}
+
+
+#currentTrackTitle {
+    color: white;
+    text-align: center;
+    font-size: 100px;
+    position: fixed;
+    top: 10%;
+    font-weight: lighter;
+}
+
+.merrick-mid-scroll-pic {
+    margin-left: 70px;
+    position: relative;
+    z-index: 40;
+}
+
+
+/*                 BIO SECTION             */
+
+.bio .container {
+    margin-top: 800px;
+    background-color: rgba(119,136,153,0.4);
+}
+
+.bioText {
+    font-weight: lighter;
+    line-height: 100px;
+}
+
+
+
+/*                   SPINNER                  */
+
+.spinner {
+  width: 133px;
+  height: 133px;
+  background-image: url("/img/logos/merrickSquareFaceCartoon.jpg");
+
+  /*margin: 100px auto;*/
+  margin-left: 70px;
+  position: relative;
+  z-index: 40;
+  -webkit-animation: rotateplane 1.2s infinite ease-in-out;
+  animation: rotateplane 1.2s infinite ease-in-out;
+}
+
+@-webkit-keyframes rotateplane {
+  0% { -webkit-transform: perspective(120px) }
+  75% { -webkit-transform: perspective(120px) rotateY(180deg) }
+  100% { -webkit-transform: perspective(120px) rotateY(180deg)  rotateX(180deg) }
+}
+
+@keyframes rotateplane {
+  0% { 
+    transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+    -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg) 
+  } 50% { 
+    transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+    -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg) 
+  } 100% { 
+    transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+    -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+  }
+}
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers: h5bp.com/u
+ */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers: h5bp.com/v
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+

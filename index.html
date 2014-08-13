@@ -1,0 +1,156 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script type="text/javascript">
+            var window.isSoundPlaying = false;
+        </script>
+        <script src="js/vendor/modernizr-2.8.0.min.js"></script>
+        <script src="http://connect.soundcloud.com/sdk.js"></script>
+        <script src="js/merrick_sounds.js"></script>
+        <script type="text/javascript" src="js/paper-full.min.js"></script>
+        <script type="text/paperscript" src="js/soundWave.js" canvas="soundWaveCanvas"></script>
+    </head>
+    <body>
+
+<section class="merrick-name-section">
+
+    <div class="row">
+
+        <div class="col-md-6">
+
+        </div>
+
+        <div class="col-md-4" id="merrick_jumbo">
+            <img id="merrick-face" src="/img/merrickPhotos/merrick_blurry_headshot.jpg">
+        </div>
+    </div>
+
+    <img id="name_header" src="/img/logos/merrickLogoBebas.png" data-0="opacity:0.8;" data-575="opacity: 0.5;">
+
+</section>
+
+
+<section class="mid-scroll-nav-header" 
+    data-574-start="opacity:0; position: default" 
+    data-670-start="opacity:.03; position:default; top:0px;" 
+    data-840-start="opacity:1; position:fixed; top:0px;">
+
+    <div class="col-md-3" id="menu-logo">
+        <a href="/social.html"><img class="merrick-mid-scroll-pic" src="/img/logos/merrickSquareFaceCartoon.jpg" data-0="opacity:0; z-index:1;" data-574="opacity:0.8" data-575="opacity:1.0; z-index:9;"></a>
+    </div>
+
+    <div class="col-md-6" id="soundWave">
+        <canvas id="soundWaveCanvas" resize></canvas>
+    </div>
+    
+</section>
+
+
+
+<a name="music"><section class="merrick-music-section">
+
+    <div class="container">
+
+        <div class="row" id="currentTrackTitle">
+            <h1></h1>
+        </div>
+
+        <div class="row" id="merrick-main-music-row"        >
+
+            <div class="col-md-6" id="merrick_studio_pic"
+                data-574-start="top:1240px; position: absolute"
+                data-840-start="top:1040ppx"
+                >
+
+                <img id="merricksActualStudioImg" src="/img/merrickPhotos/merrickStudioFromM.jpg">
+
+            </div>
+
+            <div class="col-md-4" id="blueDiv"
+                data-574-start="top:1240px; position: absolute" 
+                data-840-start="top:1040px;"
+                >
+
+
+                <div id="tracks">
+                    <div id="aroundSong" class="panel panel-default song_panel">
+                      <div class="panel-body">
+                        <a href="#" class="songLink">Around</a>
+                      </div>
+                    </div>
+
+
+
+                    <div id="visionSong" class="panel panel-default song_panel">
+                      <div class="panel-body">
+                        <a href="#" class="songLink">Vision</a>
+                      </div>
+                    </div>
+
+
+
+                    <div id="23Song" class="panel panel-default song_panel">
+                      <div class="panel-body">
+                        <a href="#" class="songLink">23</a>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+
+    </div>
+
+</section></a>
+
+<section class="bio">
+
+    <div class="container">
+
+            <img height="100px" width="100px" src="img/social/instaIcon.png">
+
+
+            <img height="100px" width="100px" class="socialIconImg" src="img/social/twitterIcon.png">
+
+            <h2 class="bioText">I was born on February 11 of 1993 in New York City at Mt. Sinai Hospital. I grew up in the small town of Annandale, New Jersey. I started writing lyrics at the age of 13, recorded songs throughout high school, and have since performed his songs in and around Miami. I'm a senior at the U. Current projects include Elite 8, as well as Space Jams and future projects which are in the works. More to come.</h2>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>
+
+        <script type="text/javascript" src="js/vendor/skrollr.js"></script>
+            <script type="text/javascript">
+            var s = skrollr.init();
+            </script>
+    </body>
+
+</html>
